@@ -90,3 +90,68 @@ symbols:  }
 
 
 for 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\alagar.cse>flex first.l
+
+C:\alagar.cse>gcc lex.yy.c -o lexer
+
+C:\alagar.cse>lexer text.txt
+preprocessor:#
+keyword:include
+Operator: <
+Identifier: stdio (ID: 1)
+dot:.
+Identifier: h (ID: 2)
+
+Identifier: int (ID: 3)
+Identifier: main (ID: 4)
+symbols:  (
+symbols:  )
+
+symbols:  {
+
+Identifier: int (ID: 3)
+Identifier: a (ID: 5)
+terminator:;
+
+Identifier: int (ID: 3)
+Identifier: b (ID: 6)
+terminator:;
+
+Identifier: printf (ID: 7)
+symbols:  (
+string:  "aathi"
+symbols:  )
+terminator:;
+
+Identifier: printf (ID: 7)
+symbols:  (
+string:  "enter the value:"
+symbols:  )
+terminator:;
+
+Identifier: scanf (ID: 8)
+symbols:  (
+string:  "%d"
+comma:,
+Identifier: d (ID: 9)
+symbols:  )
+terminator:;
+
+symbols:  }
+
